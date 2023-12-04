@@ -10,4 +10,4 @@
 #
 # Website Link :
 ------------------------
-- https://Vigilia-BS.github.io/Vigilia/
+- https://vigilia-bs.github.io/Vigilia/
