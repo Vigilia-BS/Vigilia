@@ -1,0 +1,54 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Loader ---------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+body{
+  scroll-behavior: smooth;
+  overflow: hidden;
+  margin: 0;
+}
+  
+#myLoading{
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: fixed;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  z-index: 999999999999999999999;
+}
+ 
+#loaderDiv{
+  margin: 0 0 2em;
+  width: 20%;
+  text-align: center;
+  padding: 1em;
+  margin: 0 auto 1rem;
+  display: inline-block;
+  vertical-align: top;
+}
+ 
+#loaderSize{
+  transform: scale(3);
+}
+ 
+/* ----------------------------------------------------------------------------- */
+/* Vigilia --------------------------------------------------------------------- */
+/* ----------------------------------------------------------------------------- */
+
+#insta-BTN{
+
+   background-color: rgb(228, 14, 164) !important;
+}
+#insta-BTN:hover{
+   background-color:rgb(255, 0, 179) !important;
+}
